@@ -1,0 +1,1 @@
+[{"outputType":{"type":"INSTANT_RUN_MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":0,"versionName":"1.0","enabled":true,"outputFile":"OPTICAL_BILLING_1.0.0_03Jun2019_1454.apk","fullName":"release","baseName":"release"},"path":"AndroidManifest.xml","properties":{"packageId":"com.example.srv.optical_billing","split":"","minSdkVersion":"15"}}]

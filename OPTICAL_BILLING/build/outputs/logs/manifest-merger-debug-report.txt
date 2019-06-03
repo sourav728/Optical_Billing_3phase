@@ -1,0 +1,175 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:2:1-33:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-alpha3.aar\a3d05c092088d387739b0bc94f0876c6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\ddfa1d9b6270a28324dd874573a3a271\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-alpha3.aar\7bb59e7bdabd7a567fbc4875b2baf0bf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-alpha3.aar\e369a8cb64f9abc4b5389045e30481b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-alpha3.aar\7ddbaf9830311471d686734287bc2d40\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-alpha3.aar\00533ce9a4999a71b77a0288a78d6bd3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-alpha3.aar\57ba77224fb9afd65415534f28eb0550\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-alpha3.aar\5675e02ce518fb56f7fe52fbcce4326a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-alpha3.aar\212f8609c1b76e7e1f51ef349a0cd665\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-alpha3.aar\040d90ea4ac15681e825b5c17dd4f6ac\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-alpha3.aar\580beb9bc854408191f9eb86e2f455e6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-alpha3.aar\3e889b0f53e4773719dd1fa00a4d076f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-alpha3.aar\ae58e76074db6edc21311bbf330ab71b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-alpha3.aar\89c5798bec7a4153d9288ec6337381a9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-alpha3.aar\80491855a897854ee05a4fd27d367ed5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-alpha3.aar\3fd7c9179128e99f3655d56a6cf2c9b8\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cursoradapter:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-alpha3.aar\4f44baf64305035d7cf1adfdee956386\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\02dbbd4bac342aed54da22fe81f131d1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-alpha3.aar\d03ba4911ebc1359c2cebf3dfa18b912\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:documentfile:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-alpha3.aar\a6417c416215595ccaedc035b22e3a3f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-alpha3.aar\0f116eb4ee3db89ab13ec74bae43ed1a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\print-28.0.0-alpha3.aar\b48c7800627274570b71dd9da44436da\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\3e4b732de3758e1a462d32b01ad07708\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\79c02a818a9d99dec82d4248e5515447\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b7c45f93305103c1397cb2b6bdcc58f3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-alpha3.aar\5a256601bf336b2e18f1e8cb523f5f0c\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:4:5-80
+	android:name
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:4:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:5:22-77
+uses-feature#android.hardware.usb.host
+ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:6:5-8:35
+	android:required
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:8:9-32
+	android:name
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:7:9-49
+application
+ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:10:5-31:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\ddfa1d9b6270a28324dd874573a3a271\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\ddfa1d9b6270a28324dd874573a3a271\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-alpha3.aar\3fd7c9179128e99f3655d56a6cf2c9b8\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-alpha3.aar\3fd7c9179128e99f3655d56a6cf2c9b8\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-alpha3.aar\d03ba4911ebc1359c2cebf3dfa18b912\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-alpha3.aar\d03ba4911ebc1359c2cebf3dfa18b912\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-alpha3.aar\3fd7c9179128e99f3655d56a6cf2c9b8\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:16:9-40
+activity#com.example.srv.optical_billing_threephase.splash_screen
+ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:17:19-90
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:19:25-66
+action#android.intent.action.VIEW
+ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:20:17-68
+	android:name
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:21:27-74
+activity#com.example.srv.optical_billing_threephase.MainActivity
+ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:24:9-91
+	android:name
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:24:19-89
+service#com.example.srv.optical_billing_threephase.UsbService
+ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:25:9-30:19
+	android:enabled
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:27:13-35
+	android:exported
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml:26:13-81
+uses-sdk
+INJECTED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml
+INJECTED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-alpha3.aar\a3d05c092088d387739b0bc94f0876c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-alpha3.aar\a3d05c092088d387739b0bc94f0876c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\ddfa1d9b6270a28324dd874573a3a271\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\ddfa1d9b6270a28324dd874573a3a271\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-alpha3.aar\7bb59e7bdabd7a567fbc4875b2baf0bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-alpha3.aar\7bb59e7bdabd7a567fbc4875b2baf0bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-alpha3.aar\e369a8cb64f9abc4b5389045e30481b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-alpha3.aar\e369a8cb64f9abc4b5389045e30481b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-alpha3.aar\7ddbaf9830311471d686734287bc2d40\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-alpha3.aar\7ddbaf9830311471d686734287bc2d40\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-alpha3.aar\00533ce9a4999a71b77a0288a78d6bd3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-alpha3.aar\00533ce9a4999a71b77a0288a78d6bd3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-alpha3.aar\57ba77224fb9afd65415534f28eb0550\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-alpha3.aar\57ba77224fb9afd65415534f28eb0550\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-alpha3.aar\5675e02ce518fb56f7fe52fbcce4326a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-alpha3.aar\5675e02ce518fb56f7fe52fbcce4326a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-alpha3.aar\212f8609c1b76e7e1f51ef349a0cd665\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-alpha3.aar\212f8609c1b76e7e1f51ef349a0cd665\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-alpha3.aar\040d90ea4ac15681e825b5c17dd4f6ac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-alpha3.aar\040d90ea4ac15681e825b5c17dd4f6ac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-alpha3.aar\580beb9bc854408191f9eb86e2f455e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-alpha3.aar\580beb9bc854408191f9eb86e2f455e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-alpha3.aar\3e889b0f53e4773719dd1fa00a4d076f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-alpha3.aar\3e889b0f53e4773719dd1fa00a4d076f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-alpha3.aar\ae58e76074db6edc21311bbf330ab71b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-alpha3.aar\ae58e76074db6edc21311bbf330ab71b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-alpha3.aar\89c5798bec7a4153d9288ec6337381a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-alpha3.aar\89c5798bec7a4153d9288ec6337381a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-alpha3.aar\80491855a897854ee05a4fd27d367ed5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-alpha3.aar\80491855a897854ee05a4fd27d367ed5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-alpha3.aar\3fd7c9179128e99f3655d56a6cf2c9b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-alpha3.aar\3fd7c9179128e99f3655d56a6cf2c9b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-alpha3.aar\4f44baf64305035d7cf1adfdee956386\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-alpha3.aar\4f44baf64305035d7cf1adfdee956386\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\02dbbd4bac342aed54da22fe81f131d1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\02dbbd4bac342aed54da22fe81f131d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-alpha3.aar\d03ba4911ebc1359c2cebf3dfa18b912\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-alpha3.aar\d03ba4911ebc1359c2cebf3dfa18b912\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-alpha3.aar\a6417c416215595ccaedc035b22e3a3f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-alpha3.aar\a6417c416215595ccaedc035b22e3a3f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-alpha3.aar\0f116eb4ee3db89ab13ec74bae43ed1a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-alpha3.aar\0f116eb4ee3db89ab13ec74bae43ed1a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\print-28.0.0-alpha3.aar\b48c7800627274570b71dd9da44436da\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\print-28.0.0-alpha3.aar\b48c7800627274570b71dd9da44436da\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\3e4b732de3758e1a462d32b01ad07708\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\3e4b732de3758e1a462d32b01ad07708\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\79c02a818a9d99dec82d4248e5515447\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\79c02a818a9d99dec82d4248e5515447\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b7c45f93305103c1397cb2b6bdcc58f3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b7c45f93305103c1397cb2b6bdcc58f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-alpha3.aar\5a256601bf336b2e18f1e8cb523f5f0c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-alpha3] C:\Users\TVD\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-alpha3.aar\5a256601bf336b2e18f1e8cb523f5f0c\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml
+INJECTED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml
+		ADDED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\TVD\Desktop\Optical_Billing\OPTICAL_BILLING\src\main\AndroidManifest.xml

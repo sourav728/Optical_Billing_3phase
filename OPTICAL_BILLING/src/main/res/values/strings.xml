@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Optical_Billing</string>
+    <string name="action_settings">Settings</string>
+    <string name="serial_port">Serial Port</string>
+    <string name="send">Read</string>
+    <string name="buttonCopy">Copy</string>
+    <string name="buttonClear">Clear</string>
+    <string name="copy">Copy</string>
+    <string name="clear">Clear</string>
+</resources>
