@@ -3,4 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="button_full_read">#689F38</color>
+    <color name="button_previous_read">#7C4DFF</color>
+    <color name="button_present_read">#00B0FF</color>
+    <color name="white">#F5F5F5</color>
+    <color name="clear_screen">#546E7A</color>
+    <color name="copy_text">#795548</color>
 </resources>

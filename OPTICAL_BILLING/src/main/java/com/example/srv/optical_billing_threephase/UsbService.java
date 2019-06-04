@@ -12,9 +12,11 @@ import android.hardware.usb.UsbDeviceConnection;
 import android.hardware.usb.UsbManager;
 import android.os.Binder;
 import android.os.Handler;
+
 import com.felhr.usbserial.CDCSerialDevice;
 import com.felhr.usbserial.UsbSerialDevice;
 import com.felhr.usbserial.UsbSerialInterface;
+
 import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
 import java.util.Map;
@@ -92,7 +94,12 @@ public class UsbService extends Service {
                 Intent intent = new Intent(ACTION_USB_DISCONNECTED);
                 arg0.sendBroadcast(intent);
                 serialPortConnected = false;
-                serialPort.close();
+                try {
+                    serialPort.close();
+                } catch (NullPointerException e) {
+                    e.printStackTrace();
+                }
+
             }
         }
     };
@@ -153,14 +160,11 @@ public class UsbService extends Service {
                 int deviceVID = device.getVendorId();
                 // int devicePID = device.getProductId();
 
-                if(deviceVID==0x0403){
+                if (deviceVID == 0x0403) {
                     requestUserPermission();
-                    keep=false;
+                    keep = false;
 
-                }
-
-
-                else {
+                } else {
                     connection = null;
                     device = null;
                 }

@@ -1,7 +1,19 @@
 #Internal package file, do not edit.
-#Mon Jun 03 13:45:36 IST 2019
+#Tue Jun 04 11:14:56 IST 2019
+1.base=C\:\\Users\\TVD\\Desktop\\Optical_Billing\\OPTICAL_BILLING\\build\\intermediates\\transforms\\dexMerger\\debug\\31
+2.path=classes.dex
 0.baseType=DIRECTORY
-0.base=C\:\\Users\\TVD\\Desktop\\Optical_Billing\\OPTICAL_BILLING\\build\\intermediates\\transforms\\dexMerger\\debug\\17
+3.baseType=DIRECTORY
+2.base=C\:\\Users\\TVD\\Desktop\\Optical_Billing\\OPTICAL_BILLING\\build\\intermediates\\transforms\\dexMerger\\debug\\32
+3.set=DEX
+2.set=DEX
+1.baseType=DIRECTORY
+3.path=classes.dex
+count=4
+1.set=DEX
 0.path=classes.dex
+3.base=C\:\\Users\\TVD\\Desktop\\Optical_Billing\\OPTICAL_BILLING\\build\\intermediates\\transforms\\dexMerger\\debug\\30
 0.set=DEX
-count=1
+0.base=C\:\\Users\\TVD\\Desktop\\Optical_Billing\\OPTICAL_BILLING\\build\\intermediates\\transforms\\dexMerger\\debug\\29
+2.baseType=DIRECTORY
+1.path=classes.dex

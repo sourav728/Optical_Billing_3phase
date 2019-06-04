@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.srv.optical_billing"
-    android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="15"
         android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <uses-feature
         android:name="android.hardware.usb.host"
@@ -22,16 +24,18 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.srv.optical_billing.MainActivity" >
+        <activity android:name="com.example.srv.optical_billing_threephase.splash_screen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.srv.optical_billing_threephase.MainActivity" />
 
         <service
-            android:name="com.example.srv.optical_billing.UsbService"
+            android:name="com.example.srv.optical_billing_threephase.UsbService"
             android:enabled="true"
             android:exported="true" >
         </service>

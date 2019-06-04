@@ -6,5 +6,8 @@
     <string name="buttonCopy">Copy</string>
     <string name="buttonClear">Clear</string>
     <string name="copy">Copy</string>
-    <string name="clear">Clear</string>
+
+    <string name="fulldata">FullData</string>
+    <string name="previous_read">PreviousRead</string>
+    <string name="present_read">PresentRead</string>
 </resources>

@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
     private ClipData myClip;
     private ArrayList arrayList;
     private String data = "";
+    private Button btn_full_data,btn_previous_read,btn_pres_read;
     int i = 0;
     private final ServiceConnection usbConnection = new ServiceConnection() {
         @Override
@@ -92,16 +93,19 @@ public class MainActivity extends AppCompatActivity {
         mHandler = new MyHandler(this);
         display = findViewById(R.id.textView1);
         display.setMovementMethod(new ScrollingMovementMethod());
-        //Send button
-        Button sendButton = findViewById(R.id.buttonSend);
-        sendButton.setOnClickListener(new View.OnClickListener() {
+        //Initialization
+        btn_full_data = findViewById(R.id.buttonFullData);
+        btn_previous_read = findViewById(R.id.buttonPreviousRead);
+        btn_pres_read = findViewById(R.id.buttonSend);
+
+        //For getting Present Reading
+        btn_pres_read.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (usbService != null) { // if UsbService was correctly binded, Send data
                     char data[] = new char[12];
 
                     data[0] = 0x3A;//3A
-
                     data[1] = 0x3F;//?
                     data[2] = 0x21;//!
                     data[3] = 0x0D;//CTRL+M
@@ -110,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
                     data[5] = 0x06;//CTRL+F
                     data[6] = 0x30;//0
                     data[7] = 0x34;//4
-                    data[8] = 0x30;//0
+                    data[8] = 0x33;//3
                     data[9] = 0x0D;//CTRL+M
                     data[10] = 0x0A;//CTRL+J
                     data[11] = 0x10;///CTRL+P
@@ -121,7 +125,6 @@ public class MainActivity extends AppCompatActivity {
                                 for (int j = 0; j < 2; j++) {
 
                                     // display.append(Character.toString(data[0]));
-
                                     try {
                                         usbService.write(Character.toString(data[0]).getBytes("US-ASCII"));
                                     } catch (UnsupportedEncodingException e) {
@@ -159,6 +162,138 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+
+        //For getting Full data
+        btn_full_data.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (usbService != null) { // if UsbService was correctly binded, Send data
+                    char data[] = new char[11];
+
+                    data[0] = 0x3A;//3A
+                    data[1] = 0x3F;//?
+                    data[2] = 0x21;//!
+                    data[3] = 0x0D;//CTRL+M
+                    data[4] = 0x0A;//CTRL+J
+
+                    data[5] = 0x06;//CTRL+F
+                    data[6] = 0x30;//0
+                    data[7] = 0x34;//4
+                    data[8] = 0x30;//0
+                    data[9] = 0x0D;//CTRL+M
+                    data[10] = 0x0A;//CTRL+J
+
+                    for (int i = 0; i <= 10; i++) {
+
+                        switch (i) {
+                            case 0:
+                                for (int j = 0; j < 2; j++) {
+
+                                    // display.append(Character.toString(data[0]));
+                                    try {
+                                        usbService.write(Character.toString(data[0]).getBytes("US-ASCII"));
+                                    } catch (UnsupportedEncodingException e) {
+                                        e.printStackTrace();
+                                    }
+                                }
+                                try {
+                                    Thread.sleep(1000);
+                                } catch (InterruptedException e) {
+                                    e.printStackTrace();
+                                }
+                                break;
+                            case 1:
+                                try {
+                                    Thread.sleep(1000);
+                                } catch (InterruptedException e) {
+                                    e.printStackTrace();
+                                }
+                                break;
+                            case 5:
+                                try {
+                                    Thread.sleep(1000);
+                                } catch (InterruptedException e) {
+                                    e.printStackTrace();
+                                }
+                                break;
+                        }
+                        //display.append(Character.toString(data[i]));
+                        try {
+                            usbService.write(Character.toString(data[i]).getBytes("US-ASCII"));
+                        } catch (UnsupportedEncodingException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                }
+            }
+        });
+
+        //For getting previous data
+        btn_previous_read.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (usbService != null) { // if UsbService was correctly binded, Send data
+                    char data[] = new char[12];
+
+                    data[0] = 0x3A;//3A
+                    data[1] = 0x3F;//?
+                    data[2] = 0x21;//!
+                    data[3] = 0x0D;//CTRL+M
+                    data[4] = 0x0A;//CTRL+J
+
+                    data[5] = 0x06;//CTRL+F
+                    data[6] = 0x30;//0
+                    data[7] = 0x34;//4
+                    data[8] = 0x33;//3
+                    data[9] = 0x0D;//CTRL+M
+                    data[10] = 0x0A;//CTRL+J
+                    data[11] = 0x02;///CTRL+P
+                    for (int i = 0; i <= 11; i++) {
+
+                        switch (i) {
+                            case 0:
+                                for (int j = 0; j < 2; j++) {
+
+                                    // display.append(Character.toString(data[0]));
+                                    try {
+                                        usbService.write(Character.toString(data[0]).getBytes("US-ASCII"));
+                                    } catch (UnsupportedEncodingException e) {
+                                        e.printStackTrace();
+                                    }
+                                }
+                                try {
+                                    Thread.sleep(1000);
+                                } catch (InterruptedException e) {
+                                    e.printStackTrace();
+                                }
+                                break;
+                            case 1:
+                                try {
+                                    Thread.sleep(1000);
+                                } catch (InterruptedException e) {
+                                    e.printStackTrace();
+                                }
+                                break;
+                            case 5:
+                                try {
+                                    Thread.sleep(1000);
+                                } catch (InterruptedException e) {
+                                    e.printStackTrace();
+                                }
+                                break;
+                        }
+                        //display.append(Character.toString(data[i]));
+                        try {
+                            usbService.write(Character.toString(data[i]).getBytes("US-ASCII"));
+                        } catch (UnsupportedEncodingException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                }
+            }
+        });
+
         // copy button
         Button copyText = findViewById(R.id.buttonCopy);
         myClipboard = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
@@ -186,8 +321,6 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
-
     }
 
     @Override
@@ -239,7 +372,6 @@ public class MainActivity extends AppCompatActivity {
         public MyHandler(MainActivity activity) {
             mActivity = new WeakReference<>(activity);
         }
-
         @Override
         public void handleMessage(Message msg) {
             switch (msg.what) {
@@ -258,14 +390,16 @@ public class MainActivity extends AppCompatActivity {
         arrayList.add(data);
         String display_text="";
         i++;
-        if (i == 1614) {
+     /*   if (i == 1614) {
             display_text = display.getText().toString();
             writeToFile(display_text);
             String meter_serial_no = display_text.substring(display_text.indexOf("/") + 5, display_text.indexOf("H"));
             Toast.makeText(MainActivity.this, "Meter Serial No: " + meter_serial_no, Toast.LENGTH_SHORT).show();
-            //usbService.stopSelf();
-        }
 
+        }*/
+
+        display_text = display.getText().toString();
+        writeToFile(display_text);
     }
 
     //Below code is for writing the Opticals port output in text file
