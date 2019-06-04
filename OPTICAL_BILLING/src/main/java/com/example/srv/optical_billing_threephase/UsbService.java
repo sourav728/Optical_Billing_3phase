@@ -182,7 +182,7 @@ public class UsbService extends Service {
             Intent intent = new Intent(ACTION_NO_USB);
             sendBroadcast(intent);
         }
-    }
+    } 
 
     private void setFilter() {
         IntentFilter filter = new IntentFilter();
